@@ -1,0 +1,32 @@
+#
+# Kconfig to custom added boards by Stane1983
+#
+
+# MBX
+
+config MACH_MESON6_G18_ATV102S
+  depends on ARCH_MESON6
+  bool "Visson ATV-102S platform"
+  help
+    Support for Visson ATV-102s platform
+
+config MACH_MESON6_G18_DBXM6
+  depends on ARCH_MESON6
+  bool "DroidBOX M6 platform"
+  help
+    Support for DroidBOX M6 platform
+
+config MACH_MESON6_G18_DBXMX
+  depends on ARCH_MESON6
+  bool "DroidBOX MX platform"
+  help
+    Support for DroidBOX MX platform
+
+
+# Tablet
+
+config MACH_MESON6_PMP5670C
+	depends on ARCH_MESON6
+	bool "Prestigio PMP5670C_DUO tablet"
+	help
+	  Support for Prestigio PMP5670C_DUO.

@@ -73,6 +73,14 @@ config GOODIX_GT911_N87A_CAPACITIVE_TOUCHSCREEN
 	default n
 	help
 	  Say Y here if you want to use the Goodix GT911 capacitive panel.
+
+config GOODIX_GT911_PMP5670C_CAPACITIVE_TOUCHSCREEN
+	tristate "Goodix I2C capacitive touchscreen for Prestigio PMP5670C 800x1280"
+	depends on I2C
+	default n
+	help
+	  Say Y here if you want to use the Goodix GT911 capacitive panel.
+
 config GSl1680_CAPACITIVE_TOUCHSCREEN_G12_ANDA_M702A1
 	tristate "gsl1680 I2C capacitive touchscreen for g12 anda 1024*600 M702A1"
 	depends on I2C

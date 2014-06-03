@@ -181,3 +181,5 @@ obj-$(CONFIG_MACH_MESON6_JK_V1_MXS) += board-jk_v1_mxs-panel.o
 obj-$(CONFIG_MACH_MESON6_G33_EMID7) += board-m6g33-emid7.o
 obj-$(CONFIG_MACH_MESON6_G33_EMID7) += board-m6g33-emid7-panel.o
 
+# Support for custom added boards by Stane1983
+obj-y += stane1983/

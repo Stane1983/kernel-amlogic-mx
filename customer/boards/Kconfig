@@ -2,6 +2,12 @@
 # Kconfig to support customer boards
 #
 
+#
+# Custom added boards by Stane1983
+#
+
+source "customer/boards/stane1983/Kconfig"
+
 # Tablet Config Start
 	 
 config MACH_MESON6_G04
